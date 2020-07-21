@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[You have successfully directed to suncreen page]]>
+    </line>
+    <line>
+      <![CDATA[selectcreampassed]]>
+    </line>
+    <line>
+      <![CDATA[ Products added to the cart are matched]]>
+    </line>
+    <line>
+      <![CDATA[checklistpassed]]>
+    </line>
+    <line>
+      <![CDATA[addPaymentdetailspassed]]>
+    </line>
+    <line>
+      <![CDATA[Payment is successfull]]>
+    </line>
+    <line>
+      <![CDATA[Successpgpassed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="72030" started-at="2020-07-21T09:13:27Z" finished-at="2020-07-21T09:14:39Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="72030" started-at="2020-07-21T09:13:27Z" finished-at="2020-07-21T09:14:39Z">
+      <class name="Testpg.Addcreams_pgTest">
+        <test-method status="PASS" signature="Initialize(java.lang.String)[pri:0, instance:Testpg.Addcreams_pgTest@2c9f9fb0]" name="Initialize" is-config="true" duration-ms="22710" started-at="2020-07-21T09:13:27Z" finished-at="2020-07-21T09:13:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method status="PASS" signature="selectcream()[pri:1, instance:Testpg.Addcreams_pgTest@2c9f9fb0]" name="selectcream" duration-ms="18332" started-at="2020-07-21T09:13:49Z" finished-at="2020-07-21T09:14:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[You have successfully directed to suncreen page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectcream -->
+        <test-method status="PASS" signature="validateEachmethod(org.testng.ITestResult)[pri:0, instance:Testpg.Addcreams_pgTest@2c9f9fb0]" name="validateEachmethod" is-config="true" duration-ms="2" started-at="2020-07-21T09:14:08Z" finished-at="2020-07-21T09:14:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectcream status=SUCCESS method=Addcreams_pgTest.selectcream()[pri:1, instance:Testpg.Addcreams_pgTest@2c9f9fb0] output=You have successfully directed to suncreen page]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[selectcreampassed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateEachmethod -->
+        <test-method status="PASS" signature="checklist()[pri:3, instance:Testpg.Addcreams_pgTest@2c9f9fb0]" name="checklist" duration-ms="1561" started-at="2020-07-21T09:14:08Z" finished-at="2020-07-21T09:14:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ Products added to the cart are matched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checklist -->
+        <test-method status="PASS" signature="validateEachmethod(org.testng.ITestResult)[pri:0, instance:Testpg.Addcreams_pgTest@2c9f9fb0]" name="validateEachmethod" is-config="true" duration-ms="0" started-at="2020-07-21T09:14:09Z" finished-at="2020-07-21T09:14:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checklist status=SUCCESS method=Addcreams_pgTest.checklist()[pri:3, instance:Testpg.Addcreams_pgTest@2c9f9fb0] output= Products added to the cart are matched]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[checklistpassed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateEachmethod -->
+        <test-method status="PASS" signature="addPaymentdetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:Testpg.Addcreams_pgTest@2c9f9fb0]" name="addPaymentdetails" duration-ms="9427" started-at="2020-07-21T09:14:19Z" data-provider="getExceldata" finished-at="2020-07-21T09:14:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[soniav@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5555 5555 5555 4444]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[625]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[659]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[560008]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPaymentdetails -->
+        <test-method status="PASS" signature="validateEachmethod(org.testng.ITestResult)[pri:0, instance:Testpg.Addcreams_pgTest@2c9f9fb0]" name="validateEachmethod" is-config="true" duration-ms="1" started-at="2020-07-21T09:14:29Z" finished-at="2020-07-21T09:14:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addPaymentdetails status=SUCCESS method=Addcreams_pgTest.addPaymentdetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:Testpg.Addcreams_pgTest@2c9f9fb0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[addPaymentdetailspassed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateEachmethod -->
+        <test-method status="PASS" signature="Successpg()[pri:5, instance:Testpg.Addcreams_pgTest@2c9f9fb0]" name="Successpg" duration-ms="8175" started-at="2020-07-21T09:14:29Z" finished-at="2020-07-21T09:14:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Payment is successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Successpg -->
+        <test-method status="PASS" signature="validateEachmethod(org.testng.ITestResult)[pri:0, instance:Testpg.Addcreams_pgTest@2c9f9fb0]" name="validateEachmethod" is-config="true" duration-ms="0" started-at="2020-07-21T09:14:37Z" finished-at="2020-07-21T09:14:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Successpg status=SUCCESS method=Addcreams_pgTest.Successpg()[pri:5, instance:Testpg.Addcreams_pgTest@2c9f9fb0] output=Payment is successfull]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successpgpassed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateEachmethod -->
+        <test-method status="PASS" signature="closure()[pri:0, instance:Testpg.Addcreams_pgTest@2c9f9fb0]" name="closure" is-config="true" duration-ms="1800" started-at="2020-07-21T09:14:37Z" finished-at="2020-07-21T09:14:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- Testpg.Addcreams_pgTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
